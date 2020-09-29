@@ -19,6 +19,8 @@
 * click `write` and continue with wallet you have signed in; After successful transaction, our platform will generate AML report for the address and set result into blockchain with special transaction. This process is asynchronous, hence client should wait some time;
 * next step is to fetch aml status. Choose 'fetchAMLStatus' from drop-down menu and set target to the address you used in previous step. Click write and proceed with the wallet you have signed in;
 ![failed to load image](fetch-aml.png)
+* example Ask Aml status transaction: 0x48edce704377224b98a564c08ac9403a30cd9d65f2ba39fcd816606e00e1395c
+* example Fetch Aml status transaction: 0xa84280205b43c7141dacfbfd16c626f1f1f7933a0b5cadb8e21823f250502ca3
   
  
 
