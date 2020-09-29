@@ -1,0 +1,78 @@
+[
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "depositETH",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "maxFee",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "target",
+        "type": "string"
+      }
+    ],
+    "name": "askAMLStatus",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getDefaultFee",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "defaultFee",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "maxFee",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "target",
+        "type": "string"
+      }
+    ],
+    "name": "fetchAMLStatus",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "amlID",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint8",
+        "name": "cScore",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint120",
+        "name": "flags",
+        "type": "uint120"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

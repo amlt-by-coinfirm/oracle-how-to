@@ -1,11 +1,14 @@
 # How to interact with Coinfirm AML Oracles
 
+## Eth Oracle 
 
-## Using MEW
+    address: 0x288ff9d5645bb3d246bc0b678621272aec17f9fb
+
+### Using MEW
 
 * enter the [MEW](https://www.myetherwallet.com) website
 * create new or access existing wallet ![failed to load image](create-or-access-wallet.png)
-* add new contract to interact with, set provided `address` and `abi` to relevant placeholders ![faile to load image](init-contract.png)
+* add new contract to interact with, set provided `address` and `abi`(content from `eth-oracle.abi`) to relevant placeholders ![faile to load image](init-contract.png)
 * click `Continue`
 * on the right side from contract address, choose 'depositETH' from drop-down menu and set desired amount to deposit (minimal fee for a report 0.001 ETH) ![failed to load image](depost-eth.png)
 * click `write` and continue with wallet you have signed in; If transaction executes successfully -- your balance will be increased;
